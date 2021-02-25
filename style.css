@@ -1,0 +1,36 @@
+body{
+    text-align:center;
+    background-color: blanchedalmond !important;
+    background: url('https://previews.123rf.com/images/viktorijareut/viktorijareut1807/viktorijareut180700691/104932110-mathematics-pattern-background-with-different-math-symbols-colorful-school-pattern-for-children-math.jpg');
+}
+
+#player1Div , #player2Div{
+    background-color:skyblue;
+    border-radius: 20px;
+    margin:20px auto;
+    float:none;
+    padding:20px;
+    color:darkslateblue;
+}
+
+#heading{
+    color:seashell;
+    background: lightseagreen;
+    width:30%;
+    margin:10px auto;
+}
+#loginButton{
+    background-color: green;
+    color:white;
+    border-radius:10px;
+    padding:5px 10px;
+}
+
+#loginMainDiv{
+    width:80%;
+    float:none;
+    margin:50px auto;
+    border-radius: 30px;
+    background: slategrey;
+    padding:40px 20px;
+}
