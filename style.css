@@ -13,6 +13,15 @@ body{
     color:darkslateblue;
 }
 
+.numberDiv{
+    background-color:skyblue;
+    border-radius: 20px;
+    margin:20px auto;
+    float:none;
+    padding:20px;
+    color:darkslateblue;
+}
+
 #heading{
     color:seashell;
     background: lightseagreen;
@@ -26,11 +35,41 @@ body{
     padding:5px 10px;
 }
 
-#loginMainDiv{
+.loginMainDiv{
     width:80%;
     float:none;
     margin:50px auto;
     border-radius: 30px;
     background: slategrey;
     padding:40px 20px;
+}
+
+#scoreDiv{
+    background-color:lightseagreen;
+    margin-right:10px;
+    padding:10px;
+    float:left;
+    border-radius: 15px;
+    color:seashell;
+}
+
+.gameDiv{
+    background-color: wheat;
+    color:crimson;
+    border-radius: 15px;
+    float:right;
+    padding:20px;
+}
+.buttons{
+    background-color: green;
+    color:white;
+    border-radius:10px;
+    padding:5px 10px;
+}
+
+#output{
+    background-color: rgb(235, 143, 37);
+    border-radius: 15px;
+    padding:20px;
+    color:darkslateblue;
 }

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Quiz</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+    
+   <div class="loginMainDiv">
+    
+       <div id="scoreDiv" class="col-lg-4 col-md-4 col-sm-4 col-sm-6">
+           <h2>Score</h2>
+           <h5 id="player1">Player1: <span id="player1score">0</span></h5>
+           <h5 id="player2">Player2: <span id="player2score">0</span></h5>
+       </div>
+       <div class="gameDiv col-lg-7 col-md-7 col-sm-7 col-sm-7">
+            <div class="" width="90%">
+                <h3>Question turn: <span id="questionTurn"></span></h3>
+                <h3>Answer turn: <span id="answerTurn"></span></h3>
+            </div>
+            <br/>
+            <div id="output" style="display: none;"> 
+            <h3 id="question"> 3 X 4</h3>
+            <h4>Answer: <span><input id="answer"></span></h4>
+            <button onclick="check()">Check</button>
+            </div>
+            <br/>
+            <div class="numberDiv" class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+             
+             <h4>Number 1</h4>
+             <input id="number1" type="text" placeholder="Number 1">
+     
+         </div>
+         <div class="numberDiv" class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+            <h4>Number 2</h4>
+            <input id="number2" type="text" placeholder="Number 2">
+    
+        </div>
+        <br>
+            <button class="buttons" onclick="send()">Send</button>
+       </div>
+       
+      
+    
+   </div>
+   <script src="game.js"></script>
+</body>
+</html>

@@ -9,24 +9,25 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<script src="login.js"></script>
 </head>
 <body>
-    <div id="loginMainDiv">
+    <div class="loginMainDiv">
     <h1 id="heading"> Math Quiz</h1>
     <div id="player1Div" class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
         <h4>Player1 login for game</h4>
         <label>Username:</label>&nbsp;&nbsp;
-        <input type="text" placeholder="Player1 Name">
+        <input id="player1Name" type="text" placeholder="Player1 Name">
 
     </div>
     <div id="player2Div" class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
         <h4>Player2 login for game</h4>
         <label>Username:</label>&nbsp;&nbsp;
-        <input type="text" placeholder="Player2 Name">
+        <input id="player2Name" type="text" placeholder="Player2 Name">
 
     </div>
     <br>
-    <button id="loginButton">Login</button>
+    <button id="loginButton" onclick="login()">Login</button>
 </div>
 </body>
 </html>
