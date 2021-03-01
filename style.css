@@ -73,3 +73,13 @@ body{
     padding:20px;
     color:darkslateblue;
 }
+
+.scorelabel{
+	width:40%;
+	text-align:right;
+}
+
+.scorevalue{
+	width:40%;
+	text-align:left;
+}
